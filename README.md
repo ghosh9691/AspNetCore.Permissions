@@ -1,4 +1,4 @@
-# AspNetCore.Permissions
+# AspNetCore.Permissions (Work in Progress!)
 
 This repository demonstrates how to implement a custom permissions based authorization system in ASP.NET Core 8. The system uses ASP.NET Core Identity to create and managem users and roles. In addition, roles are assigned one or more permissions.
 
