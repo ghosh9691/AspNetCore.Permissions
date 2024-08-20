@@ -7,7 +7,7 @@ The system is implemented using a web api and a front-end using Blazor WebAssemb
 
 ## Features
 
-- Granular permissions, for example, 'Users.Read', 'Users.Write', 'Users.Delete', 'Roles.Read', 'Roles.Write', 'Roles.Delete', etc.
+- Granular permissions, for example, 'UsersRead', 'UsersWrite', 'UsersDelete', 'RolesRead', 'RolesWrite', 'RolesDelete', etc.
 - Permissions are assigned to roles.
 - Roles are assigned to users.
 - Users can have multiple roles.
@@ -20,6 +20,11 @@ The system is implemented using a web api and a front-end using Blazor WebAssemb
 - Permissions can be dynamically added to roles by end uers with appropriate permissions.
 - Permissions are evaluated on the client side using custom `HasPermission` attribute.
 - Authorization Policies are dynamically generated on client side using the list of Permissions
+
+## Getting Started - TL;DR Version
+
+If you do not have time to read the entire document, you can clone this repository and rename the two projects to your liking. Then, you can follow the instructions below and use these two projects as a basic template for your own application.
+
 
 ## Getting Started - Backend
 
